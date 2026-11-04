@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Top Section */
+.top-section{
+    background-image: url(vizag.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(244, 242, 239);
+  text-shadow: 0 5px 10px black;
+  gap: 20px;
+    
+}
+
+.top-text{
+    font-weight: bold;
+    font-size: 40px;
+    
+   
+}
+
+
+/* Middle section */
+
+.info-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.info-img:hover{
+    transform: scale(1.1);
+    border: 3px solid black;
+}
+
+.middle-section h3{
+   font-weight: bold;
+    font-size: 40px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    background:linear-gradient( bisque, antiquewhite)
+}
+
+.middle-info{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   max-width: 1100px;
+   gap: 20px;
+}
+
+.info1,
+.info2,
+.info3 {
+    flex: 1;
+    max-width: 320px;
+    text-align: center;
+}
+
+.middle-info h4 {
+    margin: 18px 0 10px;
+     font-weight: bold;
+    font-size: 28px;
+}
+
+.middle-info p {
+    line-height: 1.6;
+      font-weight:normal;
+    font-size: 18px;
+}
+
+
+
+
+/* Bottom Section Done */
+
+.bottom-section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.box{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  justify-content: center;
+border-radius: 20px;
+background: linear-gradient(rgb(38, 92, 38), rgb(89, 175, 89) );
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  padding: 20px;
+margin: 40px;
+border-bottom: 5px solid black;
+box-shadow: 0px 10px 10px black;
+
+}
+
+.rahul_img{
+    width: 150px;
+    border-radius: 15%;
+    border: 2px solid black;
+}
+
+.bottom-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  
+}
